@@ -18,7 +18,7 @@ bot.command('start', (ctx) => ctx.reply('Welcome! Up and running.'));
 const menu = new Menu('my-menu-identifier')
 	.text('A', (ctx) => ctx.reply('You pressed A!'))
 	.row()
-	.webApp('Launch web', 'https://127.0.0.1:5173/')
+	.webApp('Launch web', 'https://dev--tg-cha0s.netlify.app/')
 	.row()
 	.text('B', (ctx) => ctx.reply('You pressed B!'));
 
