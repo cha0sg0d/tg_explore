@@ -1,0 +1,24 @@
+{
+	"name": "bot",
+	"version": "1.0.0",
+	"description": "tg bot",
+	"main": "index.js",
+	"scripts": {
+		"format": "echo no prettier",
+		"lint": "eslint .",
+		"test": "echo \"Error: no test specified\"",
+		"watch": "npx tsc --watch",
+		"dev": "concurrently -k \"npx tsc --watch\" \"nodemon ./bot.js\""
+	},
+	"author": "cha0sg0d",
+	"license": "MIT",
+	"dependencies": {
+		"grammy": "^1.18.1"
+	},
+	"devDependencies": {
+		"@grammyjs/menu": "^1.2.1",
+		"concurrently": "^7.6.0",
+		"dotenv": "^16.3.1",
+		"nodemon": "^2.0.22"
+	}
+}
